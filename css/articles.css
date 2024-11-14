@@ -1,0 +1,56 @@
+/* Container styling */
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+/* Article Card styling */
+.article-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Title styling */
+.article-title {
+    font-size: 1.5rem;
+    color: #2e7d32; /* Dark green */
+    margin: 0 0 0.5rem;
+}
+
+/* Meta (Author and Date) styling */
+.article-meta {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0 0 0.5rem;
+}
+
+/* Category styling */
+.article-category {
+    display: inline-block;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background-color: #388e3c; /* Green */
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+/* Description styling */
+.article-description {
+    font-size: 1rem;
+    color: #333;
+    margin: 0.5rem 0 0;
+    line-height: 1.5;
+}

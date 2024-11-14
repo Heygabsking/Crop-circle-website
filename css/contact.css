@@ -1,0 +1,81 @@
+.contact-container {
+    max-width: 600px;
+    margin: 90px auto;
+    padding: 2rem;
+    background-color: #1b4020;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.contact-container h2 {
+    color: #a3e635; /* Green color to match theme */
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-container p {
+    color: #d4d4d8; /* Light grey for description */
+    margin-bottom: 2rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    color: #a3e635; /* Green color for labels */
+    margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #000;
+}
+
+.contact-form input {
+    height: 2.5rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #7d7d7d; /* Light grey placeholder */
+}
+
+.contact-form .submit-btn {
+    background-color: #a3e635; /* Button color matching theme */
+    color: #122e13;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #84c81d; /* Darker green on hover */
+}
+
+
+.success-message {
+    background-color: aqua;
+    color: #006666;
+}
+
+.error-message {
+    background-color: red;
+    color: white;
+}
