@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Function to fetch articles from the backend
     async function fetchArticles() {
         try {
-            const response = await fetch("http://localhost:3000/api/news");
+            const response = await fetch("https://crop-circle-6k2e.onrender.com/api/news");
 			console.log(response);
             if (response.ok) {
                 const articles = await response.json();
